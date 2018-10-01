@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
             Icons.star,
             color: Colors.red[500],
           ),
-          Text('41'),
+          Text('419933993'),
         ],
       ),
     );
@@ -85,6 +85,11 @@ Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese Alps. Situate
       ),
     );
 
+    Widget textTest = Container(
+      padding: const EdgeInsets.all(32.0),
+      child: Text('asldkfjlaskdjflaksdjf'),
+    );
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -94,7 +99,11 @@ Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese Alps. Situate
         appBar: AppBar(
           title: Text('Top Lakes'),
         ),
-        body: ListView(
+
+        body:
+        ListView(
+          key: Key('키라는데 뭐가 들어가면 좋나.'),
+
           children: <Widget>[
             Image.asset(
               'images/lake.jpg'
@@ -104,7 +113,7 @@ Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese Alps. Situate
             ),
             titleSection,
             buttionSection,
-            textSection
+            textSection,
           ],
         ),
       ),

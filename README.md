@@ -9,6 +9,6 @@ For help getting started with Flutter, view our online
 
 ![](https://flutter.io/tutorials/layout/images/lakes-diagram.png)
 
-## CODE
+## Source
 
 [code](https://raw.githubusercontent.com/flutter/website/master/src/_includes/code/layout/lakes/main.dart)에서 확인할 수 있음
